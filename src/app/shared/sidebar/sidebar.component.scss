@@ -1,0 +1,64 @@
+mat-sidenav-container{
+height: 100%;
+    mat-sidenav {
+        width: 250px;
+        box-shadow: 3px 0px 7px rgba(0, 0, 0, 0.1);
+        background-color: #f7f7f7;
+        padding: 1rem 0;
+        padding-right: 1rem;
+        font-family: 'Fira Sans', sans-serif;
+        padding-left: 1rem;
+        .logo{
+            img{
+                width: 90%;
+            }
+        }
+        .sidebar-section{
+            margin-bottom: 15%;
+        }
+        h3, h4, h5 {
+            margin: 0.5rem 0;
+        }
+    
+        a {
+            text-decoration: none;
+            color: inherit;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    
+        mat-list-item {
+            padding-left: 0;
+        }
+    
+        mat-divider {
+            margin: 0.5rem 0;
+        }
+    
+        .favourites {
+            background-color: #e6e6e6;
+            padding: 0.5rem 1rem;
+        }
+    
+        mat-expansion-panel {
+            &.mat-expanded {
+                margin: 0;
+            }
+    
+            mat-expansion-panel-header {
+                padding-left: 1rem;
+                &:hover {
+                    background-color: #ddd;
+                }
+            }
+        }
+    
+        .help-support,
+        .theme-icon {
+            margin: 1rem 0;
+            padding: 0 1rem;
+        }
+    }
+}

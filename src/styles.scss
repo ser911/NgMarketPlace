@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mat-toolbar.mat-primary{
+  background-color: #A8DF8E!important;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-infix {
+  padding: 6px;
+  padding-bottom: 15px;
+}
