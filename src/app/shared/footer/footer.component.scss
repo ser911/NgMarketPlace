@@ -6,14 +6,13 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    .help-section{
-    position: absolute;
-    left: 1%;
-    bottom: 1%;
-    }
 
 .inner{
     background-color: transparent;
+    display: flex;
+    padding: 1.5%;
+    justify-content: space-around;
+    width: 80%;
 }
     a {
         color: inherit;
@@ -33,7 +32,7 @@
         }
     }
 
-    .contact-info, .address, .lcc {
+    .contact-info, .address, .lcc, .help-section {
         display: flex;
         align-items: center;
         gap: 0.5rem;
