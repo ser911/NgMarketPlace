@@ -25,6 +25,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { LoginComponent } from './components/login/login.component';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSelectModule } from '@angular/material/select';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
 
 
 
@@ -38,7 +39,8 @@ import { MatSelectModule } from '@angular/material/select';
     LoginComponent,
     ProductsListComponent,
     ProductDetailComponent,
-    FilterComponent
+    FilterComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,

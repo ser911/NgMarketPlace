@@ -1,10 +1,8 @@
-/* Ensure the toolbar uses flex for layout */
 mat-toolbar {
     display: flex;
-    align-items: center;  /* Vertically center align everything */
-}
+    align-items: center;
 
-/* This will push the login form and the icon apart */
+}
 .spacer {
     flex: 1;
 }

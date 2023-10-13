@@ -1,3 +1,4 @@
+@import '../styles.scss';
 
 
 .container {
@@ -13,17 +14,16 @@
   
   .content-area {
     padding: 20px;
+    height: 75%;
   }
   
-.main-content {
-    flex: 1 0 auto; // This allows the main content to grow
-}
+  .bottom-content{
+    height: 18%;
+    position: sticky;
+    bottom: 0;
+    app-footer{
+        background-color: $tertiaryLight;
+    
+    }
 
-.footer-container {
-    position: relative;
-    z-index: 5; // As previously mentioned to ensure proper layering
-    width: 100%;
-}
-app-footer{
-    background-color: #f7f7f7;
-}
+  }
